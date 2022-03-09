@@ -434,6 +434,14 @@ DRIVER_INIT( umk3r11 )
 	init_mk3_common();
 }
 
+DRIVER_INIT( umk3p )
+{
+	init_mk3_common();
+}
+
+
+
+
 
 /********************** 2 On 2 Open Ice Challenge **********************/
 
