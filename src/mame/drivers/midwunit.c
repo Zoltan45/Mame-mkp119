@@ -942,7 +942,7 @@ ROM_START( umk3p )
 ROM_END
 
 
-ROM_START( umk3b1 )
+ROM_START( umk3pb1 )
 	ROM_REGION16_LE( 0x800000, REGION_SOUND1, ROMREGION_ERASEFF )	/* sound data */
 	ROM_LOAD16_BYTE( "umk3plusbeta1-u2.bin",  0x000000, 0x100000, CRC(3838cfe5) SHA1(e3d2901f3bae1362742fc6ee0aa31c9f63b4dfa3) )
 	ROM_LOAD16_BYTE( "umk3-u3.bin",  0x200000, 0x100000, CRC(856fe411) SHA1(6165ebecfce7500e948d84492ffa19eed7f47091) )
@@ -1286,7 +1286,7 @@ GAME( 1994, umk3,     mk3,       wunit, mk3,      umk3,     ROT0, "Midway", "Ult
 GAME( 1994, umk3r11,  mk3,       wunit, mk3,      umk3r11,  ROT0, "Midway", "Ultimate Mortal Kombat 3 (rev 1.1)", GAME_SUPPORTS_SAVE )
 GAME( 1994, umk3r10,  mk3,       wunit, mk3,      umk3r11,  ROT0, "Midway", "Ultimate Mortal Kombat 3 (rev 1.0)", GAME_SUPPORTS_SAVE )
 GAME( 2022, umk3p,  	mk3,       wunit, mk3,      umk3p,  	ROT0, "Team Plus", "Ultimate Mortal Kombat 3 + (Beta II)", GAME_SUPPORTS_SAVE )
-GAME( 2019, umk3pb1, 	mk3,       wunit, mk3,      umk3p,  	ROT0, "Team Plus", "Ultimate Mortal Kombat 3 + (Beta 1)", GAME_SUPPORTS_SAVE )
+GAME( 2019, umk3pb1, 	mk3,       wunit, mk3,      umk3p, 		ROT0, "Team Plus", "Ultimate Mortal Kombat 3 + (Beta 1)", GAME_SUPPORTS_SAVE )
 
 GAME( 1995, wwfmania, 0,         wunit, wwfmania, wwfmania, ROT0, "Midway", "WWF: Wrestlemania (rev 1.30 08/10/95)", GAME_SUPPORTS_SAVE )
 GAME( 1995, wwfmanib, wwfmania,  wunit, wwfmania, wwfmania, ROT0, "Midway", "WWF: Wrestlemania (rev 1.20 08/02/95)", GAME_SUPPORTS_SAVE )
